@@ -1,0 +1,88 @@
+@charset "utf-8";
+body{
+	background-color:#2cbf51;
+}
+.nav-hijau {
+	background-color: #5CB85C;
+}
+.form-log {
+	width:320px;
+	height:150px;
+	background-color:#222222;
+	}
+.help-me{
+	font-size: x-small;
+	font-style: italic;
+	color: #999;
+	margin-top:5px;
+	margin-bottom:3px;
+}
+.help-me:hover {
+	font-weight: lighter;
+	color: #F00;
+}
+.bg-conten {
+	background-color:#093;
+    max-height:400px;
+}
+.bg-sidebar {
+	background-color:#036;
+	height:400px;
+
+}
+.panel-head1{
+	height: 77px;
+	/* IE10 Consumer Preview */ 
+	background-image: -ms-radial-gradient(right center, circle farthest-side, #FFFFFF 0%, #36EB63 100%);
+	/* Mozilla Firefox */ 
+	background-image: -moz-radial-gradient(right center, circle farthest-side, #FFFFFF 0%, #36EB63 100%);
+	/* Opera */ 
+	background-image: -o-radial-gradient(right center, circle farthest-side, #FFFFFF 0%, #36EB63 100%);
+	/* Webkit (Safari/Chrome 10) */ 
+	background-image: -webkit-gradient(radial, right center, 0, right center, 973, color-stop(0, #FFFFFF), color-stop(1, #36EB63));
+	/* Webkit (Chrome 11+) */ 
+	background-image: -webkit-radial-gradient(right center, circle farthest-side, #FFFFFF 0%, #36EB63 100%);
+	/* W3C Markup, IE10 Release Preview */ 
+	background-image: radial-gradient(circle farthest-side at right center, #FFFFFF 0%, #36EB63 100%);
+	border-bottom-width: 6px;
+	border-bottom-style: solid;
+	border-bottom-color: #F60;
+}
+.col-1{
+	background-color:#25f405;
+	height:300px;
+
+}
+.col-2{
+		background-color:#fa9214;
+	height:300px;
+
+}
+.col-3{
+		background-color:#fa1614;
+	height:300px;
+
+}
+.col-4{
+		background-color:#14fa82;
+	height:300px;
+
+}
+.head-top {
+	height:250px;
+	width:auto;
+}
+.container-bg{
+	background-color:#eefbf1;
+}
+.bg-slider-caption{
+	background-color:#000;
+	opacity:0.8;
+	width:640px;
+
+}
+.rio-header {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight: lighter;
+	color: #0287EA;
+}
