@@ -1,6 +1,9 @@
 @charset "utf-8";
 body{
-	background-color:#2cbf51;
+	background-color:#193d5b;
+}
+.bg-footer {
+	background-color:#122d43;
 }
 .nav-hijau {
 	background-color: #5CB85C;
@@ -49,13 +52,31 @@ body{
 	border-bottom-color: #F60;
 }
 .col-1{
-	background-color:#25f405;
 	height:300px;
+	border-radius:0px;
+	/* IE10 Consumer Preview */ 
+background-image: -ms-linear-gradient(top, #FFFFFF 0%, #A0EF6C 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(top, #FFFFFF 0%, #A0EF6C 100%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(top, #FFFFFF 0%, #A0EF6C 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFFFFF), color-stop(1, #A0EF6C));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #A0EF6C 100%);
+
+/* W3C Markup, IE10 Release Preview */ 
+background-image: linear-gradient(to bottom, #FFFFFF 0%, #A0EF6C 100%);
 
 }
-.col-2{
-		background-color:#fa9214;
-	height:300px;
+.panel-conten-home{
+		border-bottom-width: 6px;
+	border-bottom-style: solid;
+	border-bottom-color:#F00;
 
 }
 .col-3{
@@ -85,4 +106,15 @@ body{
 	font-family: Tahoma, Geneva, sans-serif;
 	font-weight: lighter;
 	color: #0287EA;
+}
+.custom-widget-2{
+	background-color: #FFFFFF;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	border-top-color: #FFF;
+	border-right-color: #FFF;
+	border-bottom-color: #FFF;
+	border-left-color: #FFF;
 }
