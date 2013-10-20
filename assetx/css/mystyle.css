@@ -87,7 +87,7 @@ background-image: linear-gradient(to bottom, #FFFFFF 0%, #428BCA 100%);
 }
 
 .head-top {
-	height:250px;
+	height:220px;
 	width:auto;
 }
 .container-bg{
@@ -110,4 +110,23 @@ background-image: linear-gradient(to bottom, #FFFFFF 0%, #428BCA 100%);
 	width: 955px;
 	font-weight: bolder;
 	font-size: 12px;
+}
+.warning-ie {
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 14px;
+	font-weight: bolder;
+	color: #000;
+	background-color: #F00;
+	padding: 8px;
+	border: medium outset #000;
+	height: auto;
+	width: 350px;
+	margin-top: 250px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.gambar-headerku {
+	margin-top: 55px;
+	position: relative;
+
 }
