@@ -3,7 +3,9 @@ body{
 	background-color:#193d5b;
 }
 .bg-footer {
-	background-color:#122d43;
+	background-color: #122d43;
+	border-top-width: medium;
+	border-top-color: #F60;
 }
 .nav-hijau {
 	background-color: #5CB85C;
@@ -87,11 +89,15 @@ background-image: linear-gradient(to bottom, #FFFFFF 0%, #428BCA 100%);
 }
 
 .head-top {
-	height:220px;
+	
 	width:auto;
 }
 .container-bg{
-	background-color:#eefbf1;
+	background-color: #eefbf1;
+	padding-top: 23px;
+	padding-bottom: 23px;
+	border-radius: 5px;
+	border: medium solid #f60;
 }
 .bg-slider-caption{
 	background-color:#000;
@@ -107,9 +113,10 @@ background-image: linear-gradient(to bottom, #FFFFFF 0%, #428BCA 100%);
 .labelq {
 	font-family: Tahoma, Geneva, sans-serif;
 	color: #428bca;
-	width: 955px;
 	font-weight: bolder;
 	font-size: 12px;
+	max-width:100%;
+	display:block;
 }
 .warning-ie {
 	font-family: "Lucida Console", Monaco, monospace;
@@ -126,7 +133,12 @@ background-image: linear-gradient(to bottom, #FFFFFF 0%, #428BCA 100%);
 	margin-left: auto;
 }
 .gambar-headerku {
-	margin-top: 55px;
-	position: relative;
+	margin-top: 65px;
+	margin-bottom:9px;
 
+}
+.banner1{
+	max-width:1129px;
+	min-width:200px;
+	
 }
