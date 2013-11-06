@@ -7,8 +7,10 @@ body{
 	border-top-width: medium;
 	border-top-color: #F60;
 }
-.nav-hijau {
-	background-color: #5CB85C;
+#border-orange-bawah {
+	border-bottom-width: 5px;
+	border-bottom-style: solid;
+	border-bottom-color: #F60;
 }
 .form-log {
 	width:320px;
@@ -92,12 +94,20 @@ background-image: linear-gradient(to bottom, #FFFFFF 0%, #428BCA 100%);
 	
 	width:auto;
 }
+.custom-menu-color {
+	-webkit-box-shadow: 0px 0px 30px rgba(255, 102, 0, 1);
+-moz-box-shadow:    0px 0px 30px rgba(255, 102, 0, 1);
+box-shadow:         0px 0px 30px rgba(255, 102, 0, 1);
+}
 .container-bg{
 	background-color: #eefbf1;
 	padding-top: 23px;
 	padding-bottom: 23px;
 	border-radius: 5px;
-	border: medium solid #f60;
+	border: thin solid #f60;
+	-webkit-box-shadow: 0px 0px 30px rgba(255, 102, 0, 1);
+	-moz-box-shadow: 0px 0px 30px rgba(255, 102, 0, 1);
+	box-shadow: 0px 0px 30px rgba(255, 102, 0, 1);
 }
 .bg-slider-caption{
 	background-color:#000;
@@ -141,4 +151,8 @@ background-image: linear-gradient(to bottom, #FFFFFF 0%, #428BCA 100%);
 	max-width:1129px;
 	min-width:200px;
 	
+}
+.custom-font-widget2 {
+	font-family: "Comic Sans MS", cursive;
+	font-weight: lighter;
 }

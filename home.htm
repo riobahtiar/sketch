@@ -7,10 +7,36 @@
 <link href="/sketch/assetx/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 <link href="/sketch/assetx/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 <link href="/sketch/assetx/css/mystyle.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+$("#myChart").ready(function(){
+new Chart(ctx).Line(data,options);
+
+var data = {
+	labels : ["January","February","March","April","May","June","July"],
+	datasets : [
+		{
+			fillColor : "rgba(220,220,220,0.5)",
+			strokeColor : "rgba(220,220,220,1)",
+			pointColor : "rgba(220,220,220,1)",
+			pointStrokeColor : "#fff",
+			data : [65,59,90,81,56,55,40]
+		},
+		{
+			fillColor : "rgba(151,187,205,0.5)",
+			strokeColor : "rgba(151,187,205,1)",
+			pointColor : "rgba(151,187,205,1)",
+			pointStrokeColor : "#fff",
+			data : [28,48,40,19,96,27,100]
+		}
+	]
+}
+});
+</script>
+
 </head>
 <body>
 <![if !IE]>
-<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+<nav class="navbar navbar-inverse navbar-fixed-top custom-menu-color" role="navigation">
   <!-- Brand and toggle get grouped for better mobile display -->
   <div class="navbar-header">
     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -116,64 +142,97 @@
 
 </div>
 
-</div>
-<div class="col-lg-3">
 
+<div class="panel panel-primary">
+<div class="panel-heading" id="border-orange-bawah">Statistik Santri</div>
+  <div class="panel-body col-1">
+    <canvas id="myChart" width="620" height="270"></canvas>
+  </div>
+</div>
+
+
+<div class="panel panel-primary">
+  <div class="panel-heading" id="border-orange-bawah"><i class="fa fa-star fa-spin"> </i> &nbsp;&nbsp;Pengumuman Terbaru </div>
+
+  <div class="panel-body col-1">
+  
+  </div>
+</div>
+
+</div>
+<!--Col-lg-3-->
+<div class="col-lg-3">
+<!--Widget 1 -->
 <div class="list-group ">
   <a href="#" class="list-group-item panel-head1">
     <img src="/sketch/assetx/img/quick.png" alt="QuickLink" width="242">
   </a>
   <a href="#" class="list-group-item">
-    <h4 class="list-group-item-heading"><span class="icon-user"></span>&nbsp;&nbsp;<b>SANTRI BARU</b></h4>
+    <h4 class="list-group-item-heading"><span class="fa fa-user"></span>&nbsp;&nbsp;<b>SANTRI BARU</b></h4>
     <p class="list-group-item-text">Pengumuman, Informasi Syarat, Ketentuan dan Biaya Pendaftaran</p>
   </a>
   <a href="#" class="list-group-item">
-    <h4 class="list-group-item-heading"><span class="icon-group"></span>&nbsp;&nbsp;<b>WALI SANTRI</b></h4></h4>
+    <h4 class="list-group-item-heading"><span class="fa fa-group"></span>&nbsp;&nbsp;<b>WALI SANTRI</b></h4></h4>
     <p class="list-group-item-text">Informasi Seputar Kegiatan Santri, Pengumuman dan Informasi Lainnya</p>
   </a>
   <a href="#" class="list-group-item">
-    <h4 class="list-group-item-heading"><span class="icon-sitemap"></span>&nbsp;&nbsp;<b>STAFF & GURU</b></h4>
+    <h4 class="list-group-item-heading"><span class="fa fa-sitemap"></span>&nbsp;&nbsp;<b>STAFF & GURU</b></h4>
     <p class="list-group-item-text">Informasi dan Pengumuman Terbaru untuk Pengurus dan Guru</p>
   </a>
   <a href="#" class="list-group-item">
-    <h4 class="list-group-item-heading"><span class="icon-smile"></span>&nbsp;&nbsp;<b>ALUMNI & UMUM</b></h4>
+    <h4 class="list-group-item-heading"><span class="fa fa-smile-o"></span>&nbsp;&nbsp;<b>ALUMNI & UMUM</b></h4>
     <p class="list-group-item-text">Pendaftaran, Informasi Event dan Hal Penting Lainnya</p>
   </a>
 </div>
+<!--Widget 2 -->
+<div class="panel panel-primary">
+  <div class="panel-heading" id="border-orange-bawah"> <i class="fa fa-share-square-o"></i>&nbsp;&nbsp; Tetap Terhubung</div>
 
+  
+<div class="list-group ">
+  <a href="#" class="btn custom-font-widget2">
+    <h4 class="list-group-item-heading"><span class="fa fa-facebook-square"></span>&nbsp;&nbsp;<b>Facebook</b></h4>
+  </a><br>
+  <a href="#" class="btn">
+    <h4 class="list-group-item-heading"><span class="fa fa-twitter-square"></span>&nbsp;&nbsp;<b>Twitter</b></h4></h4>
+  </a><br>
+  <a href="#" class="btn">
+    <h4 class="list-group-item-heading"><span class="fa fa-linkedin-square"></span>&nbsp;&nbsp;<b>LinkedIn</b></h4>
+  </a><br>
+  <a href="#" class="btn">
+    <h4 class="list-group-item-heading"><span class="fa fa-youtube-square"></span>&nbsp;&nbsp;<b>Youtube</b></h4>
+  </a><br>
+  <a href="#" class="btn">
+    <h4 class="list-group-item-heading"><span class="fa fa-flickr"></span>&nbsp;&nbsp;<b>Flickr</b></h4>
+  </a><br>
+  <a href="#" class="btn">
+    <h4 class="list-group-item-heading"><span class="fa fa-foursquare"></span>&nbsp;&nbsp;<b>Foursquare</b></h4>
+  </a><br>
+  <a href="#" class="btn">
+    <h4 class="list-group-item-heading"><span class="fa fa-quote-left"></span>&nbsp;&nbsp;<b>Official Blog</b></h4>
+  </a><br>
 </div>
 
 
-
-<div class="col-md-9">
+</div>
+<!--Widget 3 -->
 <div class="panel panel-primary">
-  <div class="panel-heading">Berita Terbaru</div>
+  <div class="panel-heading" id="border-orange-bawah">Link Lembaga w2</div>
+  <div class="panel-body col-1">
+    Panel content
+  </div>
+</div>
+<!--Widget 4 -->
+<div class="panel panel-primary">
+  <div class="panel-heading" id="border-orange-bawah">Berita Terbaru w3</div>
 
   <div class="panel-body col-1">
     Panel content
   </div>
 </div>
-</div>
-<div class="col-lg-3">
+<!--Widget 5 -->
 <div class="panel panel-primary">
-  <div class="panel-heading">Link Lembaga</div>
-  <div class="panel-body col-1">
-    Panel content
-  </div>
-</div>
-</div>
-<div class="col-md-9">
-<div class="panel panel-primary">
-  <div class="panel-heading">Berita Terbaru</div>
-
-  <div class="panel-body col-1">
-    Panel content
-  </div>
-</div>
-</div>
-<div class="col-lg-3">
-<div class="panel panel-primary">
-  <div class="panel-heading">Statistik Santri Baru</div>
+  <div class="panel-heading" id="border-orange-bawah"> Berita Terbaru</div>
   <div class="panel-body col-1">
     Panel content
   </div>
@@ -181,12 +240,12 @@
 </div>
 
 </div><br><br><br>
-<div class="panel-footer bg-footer">
+<div class="panel-footer bg-footer custom-menu-color">
 <div class="panel-group pill-pane" id="accordion">
   <div class="panel panel-primary">
     <div class="panel-heading">
       <b class="panel-title pull-right">
-        <button class=" btn btn-danger accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+        <button class="btn btn-danger accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
            <span class="icon-angle-down"> &nbsp;Butuh Bantuan?  </span>
         </button>
       </b>
@@ -212,7 +271,6 @@
 <script src="/sketch/assetx/js/jquery-1.10.2.min.js"></script>
 <script src="/sketch/assetx/js/bootstrap.min.js"></script>
 <script src="/sketch/assetx/js/jquery-migrate-1.2.1.min.js"></script>
-
-
+<script src="/sketch/assetx/js/Chart.js"></script>
 </body>
 </html>
