@@ -2,7 +2,7 @@
 <html lang="id">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
 <title>Selamat Datang di Pusat Informasi Pesantren Zainul Hasan Genggong - Sistem Informasi Pesatren</title>
 <link href="/sketch/assetx/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 <link href="/sketch/assetx/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -36,79 +36,55 @@ var data = {
 </head>
 <body>
 <![if !IE]>
-<nav class="navbar navbar-inverse navbar-fixed-top custom-menu-color" role="navigation">
-  <!-- Brand and toggle get grouped for better mobile display -->
-  <div class="navbar-header">
-    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-      <span class="sr-only">Toggle navigation</span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-angle-left"></span>
-    </button>
-    
-    <a class="navbar-brand" href="#">Pesantren Zainul Hasan Genggong</a>
-  </div>
-
-  <!-- Collect the nav links, forms, and other content for toggling -->
-  <div class="collapse navbar-collapse navbar-ex1-collapse">
-    <ul class="nav navbar-nav">
-      <li class="active"><a href="#">Link</a></li>
-      <li><a href="#">Link</a></li>
-      <li class="dropdown">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-        <ul class="dropdown-menu">
-          <li><a href="#">Action</a></li>
-          <li><a href="#">Another action</a></li>
-          <li><a href="#">Something else here</a></li>
-          <li><a href="#">Separated link</a></li>
-          <li><a href="#">One more separated link</a></li>
+<!--menu awal-->
+<ul id="cbp-tm-menu" class="cbp-tm-menu">
+    <li>
+        <a href="#">Home</a>
+    </li>
+    <li>
+        <a href="#">Veggie made</a>
+        <ul class="cbp-tm-submenu">
+            <li><a href="#" class="cbp-tm-icon-archive">Sorrel desert</a></li>
+            <li><a href="#" class="cbp-tm-icon-cog">Raisin kakadu</a></li>
+            <li><a href="#" class="cbp-tm-icon-location">Plum salsify</a></li>
+            <li><a href="#" class="cbp-tm-icon-users">Bok choy celtuce</a></li>
+            <li><a href="#" class="cbp-tm-icon-earth">Onion endive</a></li>
+            <li><a href="#" class="cbp-tm-icon-location">Bitterleaf</a></li>
+            <li><a href="#" class="cbp-tm-icon-mobile">Sea lettuce</a></li>
         </ul>
-      </li>
-    </ul>    
-    <ul class="nav navbar-nav navbar-right">
-      <li><a href="#">Link</a></li>
-      
-      <li class="dropdown">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-        <ul class="dropdown-menu">
-          <li><a href="#">Action</a></li>
-          <li><a href="#">Action</a></li>
-          <li><a href="#">Separated link</a></li>
+    </li>
+    <li>
+        <a href="#">Pepper tatsoi</a>
+        <ul class="cbp-tm-submenu">
+            <li><a href="#" class="cbp-tm-icon-archive">Brussels sprout</a></li>
+            <li><a href="#" class="cbp-tm-icon-cog">Kakadu lemon</a></li>
+            <li><a href="#" class="cbp-tm-icon-link">Juice green</a></li>
+            <li><a href="#" class="cbp-tm-icon-users">Wine fruit</a></li>
+            <li><a href="#" class="cbp-tm-icon-earth">Garlic mint</a></li>
+            <li><a href="#" class="cbp-tm-icon-location">Zucchini garnish</a></li>
+            <li><a href="#" class="cbp-tm-icon-mobile">Sea lettuce</a></li>
         </ul>
-      </li>
-      <!--acodeq-->
-      <li class="dropdown">
-                    <a class="dropdown-toggle" href="#" data-toggle="dropdown"><i class="icon-signin"></i> Login Area  <strong class="caret"></strong></a>
-
-                    <div class="dropdown-menu form-log" style="padding: 15px; padding-bottom: 0px;">
-                        <form action="http://#" method="post">
-                          <div class="input-group" style="margin-bottom:4px">
-  							<span class="input-group-addon"><i class="icon-user"></i></span>
-  							<input type="text" class="form-control" placeholder="Username">
-							</div>
-                          <div class="input-group" style="margin-bottom:6px">
-  							<span class="input-group-addon"><i class="icon-lock"></i></span>
-  							<input type="password" class="form-control" placeholder="Password">
-							</div>
-                            <button name="Submit" type="submit" class="btn-sm btn-info"><i class="icon-unlock"></i> Masuk</button>  <a href="#" class="btn-default btn-xs">Tidak Bisa Masuk ?</a><hr>
-                            <div class="alert alert-info">
-  Anda Santri,Alumni atau Wali Santri? Silahkan Bergabung <a href="#" class="alert-link">disini</a> Untuk Menjadi Member. <p class="help-me"><a href="#" class="alert-link">Bantuan dan Informasi Lebih Lanjut?</a></p>.
-</div> 
-                        </form>
-                    </div>
-                </li>
-      <!--hcodeq-->
-    </ul>
-  </div><!-- /.navbar-collapse -->
-</nav>
-<!--NAVABAR AKHIR-->
+    </li>
+    <li>
+        <a href="#">Sweet melon</a>
+        <ul class="cbp-tm-submenu">
+            <li><a href="#" class="cbp-tm-icon-screen">Sorrel desert</a></li>
+            <li><a href="#" class="cbp-tm-icon-mail">Raisin kakadu</a></li>
+            <li><a href="#" class="cbp-tm-icon-contract">Plum salsify</a></li>
+            <li><a href="#" class="cbp-tm-icon-pencil">Bok choy celtuce</a></li>
+            <li><a href="#" class="cbp-tm-icon-article">Onion endive</a></li>
+            <li><a href="#" class="cbp-tm-icon-clock">Bitterleaf</a></li>
+        </ul>
+    </li>
+</ul>
+<!--menu akhir-->
 <div class="container">
 <div class="head-top"><img src="/sketch/assetx/img/logo_pzh.png"  class="img-responsive gambar-headerku" alt="Responsive image"></div>
 
 </div>
 <div class="container container-bg">
 
-<div class="col-lg-9">
+<div class="col-xs-9">
 
 <div class="panel panel-default  bg-conten">
  <div id="carousel-example-generic" class="carousel slide">
@@ -144,15 +120,26 @@ var data = {
 
 
 <div class="panel panel-primary">
-<div class="panel-heading" id="border-orange-bawah">Statistik Santri</div>
+<div class="panel-heading" id="border-orange-bawah"><i class="fa fa-star fa-spin" ><a href="/localhost"></a> </i> &nbsp;&nbsp;Pengumuman Terbaru <span class="pull-right"><b><i class="fa fa-folder"></i></b></span></div>
   <div class="panel-body col-1">
-    <canvas id="myChart" width="620" height="270"></canvas>
+    <fieldset><legend>Penerimaan Santri baru</legend> Santri Baru</fieldset>
+    <fieldset><legend>Penerimaan Santri baru</legend> Santri Baru</fieldset>
+    <fieldset><legend>Penerimaan Santri baru</legend> Santri Baru</fieldset>
+    <fieldset><legend>Penerimaan Santri baru</legend> Santri Baru</fieldset>
   </div>
 </div>
 
 
 <div class="panel panel-primary">
-  <div class="panel-heading" id="border-orange-bawah"><i class="fa fa-star fa-spin"> </i> &nbsp;&nbsp;Pengumuman Terbaru </div>
+  <div class="panel-heading" id="border-orange-bawah"><i class="fa fa-bar-chart-o"> </i> &nbsp;&nbsp;Statistik Santri</div>
+
+  <div class="panel-body col-1">
+  
+  </div>
+</div>
+
+<div class="panel panel-primary">
+  <div class="panel-heading" id="border-orange-bawah"><i class="fa fa-bar-chart-o"> </i> &nbsp;&nbsp;Statistik Santri</div>
 
   <div class="panel-body col-1">
   
@@ -161,7 +148,7 @@ var data = {
 
 </div>
 <!--Col-lg-3-->
-<div class="col-lg-3">
+<div class="col-xs-3">
 <!--Widget 1 -->
 <div class="list-group ">
   <a href="#" class="list-group-item panel-head1">
